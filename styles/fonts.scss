@@ -1,6 +1,8 @@
-@font-face {
+/* @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.woff2") format("woff2");
+    src: url("/fonts/OpenSans-Regular.woff") format("woff"), 
+         url("/fonts/OpenSans-Regular.woff2") format("woff2"),
+         url("/fonts/OpenSans-Regular.woff2") format("woff2");
     font-weight: 400;
 }
 @font-face {
@@ -31,5 +33,42 @@
 @font-face {
     font-family: "RobotoSlab";
     src: url("/fonts/RobotoSlab-Regular.woff") format("woff"), url("/fonts/RobotoSlab-Regular.woff2") format("woff2");
+    font-weight: 400;
+} */
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("/fonts/RobotoSlab-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("/fonts/RobotoSlab-Regular.ttf") format("truetype");
     font-weight: 400;
 }
