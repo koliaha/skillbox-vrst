@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-SemiBold.woff") format("woff"), url("/fonts/OpenSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Bold.woff") format("woff"), url("/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.woff") format("woff"), url("/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Light.woff") format("woff"), url("/fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("/fonts/RobotoSlab-Light.woff") format("woff"), url("/fonts/RobotoSlab-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("/fonts/RobotoSlab-Regular.woff") format("woff"), url("/fonts/RobotoSlab-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+/*# sourceMappingURL=fonts.css.map */

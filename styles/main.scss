@@ -1,0 +1,271 @@
+$mainColor: #3d3bff;
+$phoneColor: #657195;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.section {
+    margin: 135px 0;
+    .title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 55px;
+        margin-bottom: 67px;
+    }
+    .main {
+        margin: 0 auto;
+        max-width: 1170px;
+        display: flex;
+        background: #fafbfe;
+    box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
+    }
+    .main-left {
+        width: 50%;
+        background-color: $mainColor;
+        position: relative;
+        .left-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            letter-spacing: -0.5px;
+        }
+        .full-price {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            .full-price_text {
+                font-size: 15px;
+                line-height: 18px;
+            }
+            .full-price_price {
+                margin-top: 3px;
+                font-size: 38px;
+                font-family: "RobotoSlab";
+                font-weight: 300;
+                line-height: 50px;
+                text-decoration: line-through;
+                letter-spacing: -2px;
+                span {
+                    font-family: "Roboto";
+                    font-weight: 300;
+                }
+            }
+        }
+        .installment {
+            .installment_price {
+                font-size: 80px;
+                line-height: 106px;
+                font-family: "RobotoSlab";
+                font-weight: 400;
+                letter-spacing: -2px;
+                span {
+                    font-family: "Roboto";
+                    font-weight: 400;
+                }
+            }
+            .installment_text {
+                font-weight: bold;
+                font-size: 23px;
+                line-height: 27px;
+            }
+        }
+        .for-first {
+            margin-top: 20px;
+            .for-first_price {
+                font-family: "RobotoSlab";
+                font-weight: 300;
+                font-size: 50px;
+                line-height: 66px;
+                letter-spacing: -2px;
+                span {
+                    font-family: "Roboto";
+                    font-weight: 300;
+                }
+            }
+            .for-first_text {
+                margin-top: 3px;
+                font-size: 20px;
+                line-height: 23px;
+            }
+        }
+    }
+    .main-right {
+        width: 50%;
+        .right-wrap {
+            padding: 57px 85px;
+        }
+        .right_title {
+            font-family: "Roboto";
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 40px;
+            margin-bottom: 24px;
+        }
+        .right_list {
+            padding: 0;
+            margin-left: 20px;
+            font-family: "OpenSans";
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 28px;
+            margin-bottom: 32px;
+            li {
+                color: $mainColor;
+                margin-bottom: 12px;
+                span {
+                    color: $phoneColor;
+                }
+            }
+        }
+        .right-date_place {
+            display: flex;
+            justify-content: space-between;
+            font-family: "Roboto";
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: -0.5px;
+            color: $phoneColor;
+            mix-blend-mode: normal;
+            margin-bottom: 30px;
+            strong {
+                color: $mainColor;
+                font-weight: bold;
+                font-size: 20px;
+                padding-left: 10px;
+            }
+        }
+        .order-form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 33px;
+            .order-form_input {
+                padding: 0 28px;
+                height: 60px;
+                background: #fafbfe;
+                border: 2px solid #e6e8f0;
+                margin-bottom: 19px;
+                color: $phoneColor;
+                font-family: "OpenSans";
+                font-weight: 400;
+            }
+            .order-form_button {
+                padding: 24px;
+                background-color: $mainColor;
+                font-family: "OpenSans";
+                height: 60px;
+                color: #fff;
+                border: none;
+                text-transform: uppercase;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 0px;
+                letter-spacing: 1px;
+            }
+        }
+        .checkbox-form {
+            .container {
+                display: block;
+                position: relative;
+                padding-left: 35px;
+                margin-bottom: 12px;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 21px;
+                color: $phoneColor;
+                user-select: none;
+                a:link,
+                a:visited {
+                    color: $mainColor;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                input {
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                }
+            }
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 25px;
+                width: 25px;
+                background-color: #eee;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    display: none;
+                    left: 9px;
+                    top: 5px;
+                    width: 5px;
+                    height: 10px;
+                    border: solid white;
+                    border-width: 0 2px 2px 0;
+                    transform: rotate(45deg);
+                }
+            }
+            .container:hover input ~ .checkmark {
+                background-color: #ccc;
+            }
+            .container input:checked ~ .checkmark {
+                background-color: $mainColor;
+            }
+            .container input:checked ~ .checkmark:after {
+                display: block;
+            }
+        }
+    }
+    .sale-icon {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        background: linear-gradient(0deg, #000000, #000000), #7ce187;
+        text-align: center;
+        padding: 21px 0;
+        width: 110px;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -20px);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+
+        .sale-icon_first {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 7px;
+        }
+        .sale-icon_second {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 28px;
+            margin-bottom: 3px;
+            letter-spacing: -0.75px;
+        }
+        .sale-icon_third {
+            font-weight: 200;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: -0.5px;
+        }
+    }
+}

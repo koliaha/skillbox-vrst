@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.section {
+  margin: 135px 0;
+}
+
+.section .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 67px;
+}
+
+.section .main {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fafbfe;
+  -webkit-box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
+          box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
+}
+
+.section .main-left {
+  width: 50%;
+  background-color: #3d3bff;
+  position: relative;
+}
+
+.section .main-left .left-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.section .main-left .full-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.section .main-left .full-price .full-price_text {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.section .main-left .full-price .full-price_price {
+  margin-top: 3px;
+  font-size: 38px;
+  font-family: "RobotoSlab";
+  font-weight: 300;
+  line-height: 50px;
+  text-decoration: line-through;
+  letter-spacing: -2px;
+}
+
+.section .main-left .full-price .full-price_price span {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.section .main-left .installment .installment_price {
+  font-size: 80px;
+  line-height: 106px;
+  font-family: "RobotoSlab";
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.section .main-left .installment .installment_price span {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.section .main-left .installment .installment_text {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+.section .main-left .for-first {
+  margin-top: 20px;
+}
+
+.section .main-left .for-first .for-first_price {
+  font-family: "RobotoSlab";
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: -2px;
+}
+
+.section .main-left .for-first .for-first_price span {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.section .main-left .for-first .for-first_text {
+  margin-top: 3px;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.section .main-right {
+  width: 50%;
+}
+
+.section .main-right .right-wrap {
+  padding: 57px 85px;
+}
+
+.section .main-right .right_title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+
+.section .main-right .right_list {
+  padding: 0;
+  margin-left: 20px;
+  font-family: "OpenSans";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.section .main-right .right_list li {
+  color: #3d3bff;
+  margin-bottom: 12px;
+}
+
+.section .main-right .right_list li span {
+  color: #657195;
+}
+
+.section .main-right .right-date_place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.5px;
+  color: #657195;
+  mix-blend-mode: normal;
+  margin-bottom: 30px;
+}
+
+.section .main-right .right-date_place strong {
+  color: #3d3bff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.section .main-right .order-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 33px;
+}
+
+.section .main-right .order-form .order-form_input {
+  padding: 0 28px;
+  height: 60px;
+  background: #fafbfe;
+  border: 2px solid #e6e8f0;
+  margin-bottom: 19px;
+  color: #657195;
+  font-family: "OpenSans";
+  font-weight: 400;
+}
+
+.section .main-right .order-form .order-form_button {
+  padding: 24px;
+  background-color: #3d3bff;
+  font-family: "OpenSans";
+  height: 60px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 0px;
+  letter-spacing: 1px;
+}
+
+.section .main-right .checkbox-form .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  color: #657195;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section .main-right .checkbox-form .container a:link,
+.section .main-right .checkbox-form .container a:visited {
+  color: #3d3bff;
+  text-decoration: none;
+  display: block;
+}
+
+.section .main-right .checkbox-form .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.section .main-right .checkbox-form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.section .main-right .checkbox-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.section .main-right .checkbox-form .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.section .main-right .checkbox-form .container input:checked ~ .checkmark {
+  background-color: #3d3bff;
+}
+
+.section .main-right .checkbox-form .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.section .sale-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#000000)), #7ce187;
+  background: linear-gradient(0deg, #000000, #000000), #7ce187;
+  text-align: center;
+  padding: 21px 0;
+  width: 110px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -20px);
+          transform: translate(-50%, -20px);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+}
+
+.section .sale-icon .sale-icon_first {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.section .sale-icon .sale-icon_second {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 28px;
+  margin-bottom: 3px;
+  letter-spacing: -0.75px;
+}
+
+.section .sale-icon .sale-icon_third {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+}
+/*# sourceMappingURL=main.css.map */
