@@ -1,66 +1,76 @@
- @media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
+    .section {
+        .main {
+            width: 95%;
+        }
+        .main-right .right-wrap {
+            padding: 57px 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
     .section .main-right .right-wrap {
         padding: 57px 29px;
     }
-    .section .main-right .right-date_place strong{
+    .section .main-right .right-date_place strong {
         display: block;
         padding-left: 0px;
     }
- }
+}
 
- @media screen and (max-width: 770px) {
-    .section .main{
-        width: 95%;
+@media screen and (max-width: 770px) {
+    .section .main {
         flex-direction: column;
         box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
-        .main-left, .main-right{
+        .main-left,
+        .main-right {
             width: 100%;
         }
-        .main-left{
+        .main-left {
             height: 540px;
         }
-        .main-right{
-            .right_title{
+        .main-right {
+            .right_title {
                 text-align: center;
             }
             .right-wrap {
                 padding: 57px 122px;
             }
-            .right-date_place{
+            .right-date_place {
                 justify-content: space-around;
             }
-            .right-date_place strong{
+            .right-date_place strong {
                 display: inline;
             }
-        } 
-        
+        }
     }
- }
- @media screen and (max-width: 615px) {
+}
+@media screen and (max-width: 615px) {
     .section .main .main-right .right-wrap {
         padding: 57px 90px;
     }
- }
- @media screen and (max-width: 535px) {
+}
+@media screen and (max-width: 535px) {
     .section .main .main-right .right-wrap {
         padding: 57px 40px;
     }
- }
- @media screen and (max-width: 445px) {
+}
+@media screen and (max-width: 445px) {
     .section .main .main-right .right-wrap {
         padding: 57px 25px;
     }
- }
- @media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 375px) {
     .section .main .main-right {
-        .right_title{
+        .right_title {
             text-align: left;
         }
-        .right-date_place{
+        .right-date_place {
             flex-direction: column;
-            div{
+            div {
                 margin-bottom: 10px;
             }
         }
     }
- }
+}

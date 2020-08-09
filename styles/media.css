@@ -1,3 +1,12 @@
+@media screen and (max-width: 1024px) {
+  .section .main {
+    width: 95%;
+  }
+  .section .main-right .right-wrap {
+    padding: 57px 40px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .section .main-right .right-wrap {
     padding: 57px 29px;
@@ -10,7 +19,6 @@
 
 @media screen and (max-width: 770px) {
   .section .main {
-    width: 95%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -18,7 +26,8 @@
     -webkit-box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
             box-shadow: 0px 2px 24px rgba(168, 175, 196, 0.9);
   }
-  .section .main .main-left, .section .main .main-right {
+  .section .main .main-left,
+  .section .main .main-right {
     width: 100%;
   }
   .section .main .main-left {
