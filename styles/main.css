@@ -56,8 +56,7 @@ body {
 }
 
 .section .main-left .full-price {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font: "Roboto", 300, sans-serif;
   mix-blend-mode: normal;
   opacity: 0.5;
 }

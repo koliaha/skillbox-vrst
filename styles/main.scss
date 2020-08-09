@@ -1,13 +1,15 @@
 $mainColor: #3d3bff;
 $phoneColor: #657195;
-
+$fontOpensans: "OpenSans";
+$fontRoboto: "Roboto";
+$fontRobotoSlab: "RobotoSlab";
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: $fontRoboto, sans-serif;
 }
 
 .section {
@@ -40,8 +42,7 @@ body {
             letter-spacing: -0.5px;
         }
         .full-price {
-            font-family: "Roboto", sans-serif;
-            font-weight: 300;
+            font: $fontRoboto, 300, sans-serif;
             mix-blend-mode: normal;
             opacity: 0.5;
             .full-price_text {
@@ -51,13 +52,13 @@ body {
             .full-price_price {
                 margin-top: 3px;
                 font-size: 38px;
-                font-family: "RobotoSlab";
+                font-family: $fontRobotoSlab;
                 font-weight: 300;
                 line-height: 50px;
                 text-decoration: line-through;
                 letter-spacing: -2px;
                 span {
-                    font-family: "Roboto";
+                    font-family: $fontRoboto;
                     font-weight: 300;
                 }
             }
@@ -66,11 +67,11 @@ body {
             .installment_price {
                 font-size: 80px;
                 line-height: 106px;
-                font-family: "RobotoSlab";
+                font-family: $fontRobotoSlab;
                 font-weight: 400;
                 letter-spacing: -2px;
                 span {
-                    font-family: "Roboto";
+                    font-family: $fontRoboto;
                     font-weight: 400;
                 }
             }
@@ -83,13 +84,13 @@ body {
         .for-first {
             margin-top: 20px;
             .for-first_price {
-                font-family: "RobotoSlab";
+                font-family: $fontRobotoSlab;
                 font-weight: 300;
                 font-size: 50px;
                 line-height: 66px;
                 letter-spacing: -2px;
                 span {
-                    font-family: "Roboto";
+                    font-family: $fontRoboto;
                     font-weight: 300;
                 }
             }
@@ -106,7 +107,7 @@ body {
             padding: 57px 85px;
         }
         .right_title {
-            font-family: "Roboto";
+            font-family: $fontRoboto;
             font-weight: bold;
             font-size: 34px;
             line-height: 40px;
@@ -115,7 +116,7 @@ body {
         .right_list {
             padding: 0;
             margin-left: 20px;
-            font-family: "OpenSans";
+            font-family: $fontOpensans;
             font-weight: normal;
             font-size: 15px;
             line-height: 28px;
@@ -131,7 +132,7 @@ body {
         .right-date_place {
             display: flex;
             justify-content: space-between;
-            font-family: "Roboto";
+            font-family: $fontRoboto;
             font-weight: 300;
             font-size: 15px;
             line-height: 18px;
@@ -157,13 +158,13 @@ body {
                 border: 2px solid #e6e8f0;
                 margin-bottom: 19px;
                 color: $phoneColor;
-                font-family: "OpenSans";
+                font-family: $fontOpensans;
                 font-weight: 400;
             }
             .order-form_button {
                 padding: 24px;
                 background-color: $mainColor;
-                font-family: "OpenSans";
+                font-family: $fontOpensans;
                 height: 60px;
                 color: #fff;
                 border: none;

@@ -1,5 +1,4 @@
 const form = document.querySelectorAll('#form_id')
-console.log(form)
 form.forEach((event) => {
     event.addEventListener('submit', (e) => {
         const name = event.querySelector('#name')
