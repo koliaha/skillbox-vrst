@@ -49,19 +49,24 @@
                         <div class="right-date">Старт курса: <strong>7 сентября</strong></div>
                         <div class="right-place">Осталось: <strong>19 мест</strong></div>
                     </div>
-                    <form action="" method="POST" class="order-form">
-                        <input type="text" name="name" class="order-form_input" required="1" placeholder="Имя">
-                        <input type="tel" name="phone" class="order-form_input" required="1" placeholder="Телефон">
-                        <input type="email" name="mail" class="order-form_input" required="1" placeholder="Email">
-                        <button class="order-form_button">Записаться</button>
-                    </form>
-                    <div class="checkbox-form">
-                        <label class="container">Я согласен с условиями обработки <a href="">персональных данных</a>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
+                    <form id="form_id" method="post" action="" class="order-form">
+                        <p id="message"></p>
+                        <input type="text" id="name" name="name" class="order-form_input" placeholder="Имя" size="20"
+                            required>
+                        <input id="phone" name="phone" type="tel" class="order-form_input" size="20"
+                            placeholder="Телефон">
+                        <input id="email" name="email" size="20" type="text" class="order-form_input" required
+                            placeholder="Email">
+                        <button class="order-form_button" type="submit">Записаться</button>
+                        <p id="message_thx"></p>
 
+                        <div class="checkbox-form">
+                            <label class="container">Я согласен с условиями обработки <a href="">персональных данных</a>
+                                <input type="checkbox" id="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -94,29 +99,35 @@
             <div class="main-right">
                 <div class="right-wrap">
                     <div class="right_title">Запишитесь на курс</div>
-                  
+
                     <div class="right-date_place">
                         <div class="right-date">Старт курса: <strong>7 сентября</strong></div>
                         <div class="right-place">Осталось: <strong>19 мест</strong></div>
                     </div>
-                    <form action="" method="POST" class="order-form">
-                        <input type="text" name="name" class="order-form_input" required="1" placeholder="Имя">
-                        <input type="tel" name="phone" class="order-form_input" required="1" placeholder="Телефон">
-                        <input type="email" name="mail" class="order-form_input" required="1" placeholder="Email">
-                        <button class="order-form_button">Записаться</button>
-                    </form>
-                    <div class="checkbox-form">
-                        <label class="container">Я согласен с условиями обработки <a href="">персональных данных</a>
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
+                    <form id="form_id" method="post" action="" class="order-form">
+                        <p id="message"></p>
+                        <input type="text" id="name" name="name" class="order-form_input" placeholder="Имя" size="20"
+                            required>
+                        <input id="phone" name="phone" type="tel" class="order-form_input" size="20"
+                            placeholder="Телефон">
+                        <input id="email" name="email" size="20" type="text" class="order-form_input" required
+                            placeholder="Email">
+                        <button class="order-form_button" type="submit">Записаться</button>
+                        <p id="message_thx"></p>
 
+                        <div class="checkbox-form">
+                            <label class="container">Я согласен с условиями обработки <a href="">персональных данных</a>
+                                <input type="checkbox" id="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </form>
                 </div>
             </div>
 
         </div>
     </section>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

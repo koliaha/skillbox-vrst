@@ -191,7 +191,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 33px;
 }
 
 .section .main-right .order-form .order-form_input {
@@ -218,6 +217,21 @@ body {
   font-size: 15px;
   line-height: 0px;
   letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.section .main-right .order-form #message, .section .main-right .order-form #message_thx {
+  text-align: center;
+  font-size: 12px;
+  color: #cc0066;
+}
+
+.section .main-right .order-form #message_thx {
+  color: #00cc00;
+}
+
+.section .main-right .checkbox-form {
+  margin-top: 25px;
 }
 
 .section .main-right .checkbox-form .container {
